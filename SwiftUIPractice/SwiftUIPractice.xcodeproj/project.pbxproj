@@ -53,7 +53,7 @@
 		487074BB2B30035E0001BE07 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				487074CA2B30036A0001BE07 /* MakeView */,
+				487074CA2B30036A0001BE07 /* 1. MakeView */,
 				487074BC2B30035E0001BE07 /* SwiftUIPracticeApp.swift */,
 				487074BE2B30035E0001BE07 /* ContentView.swift */,
 				487074C02B3003600001BE07 /* Assets.xcassets */,
@@ -70,12 +70,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		487074CA2B30036A0001BE07 /* MakeView */ = {
+		487074CA2B30036A0001BE07 /* 1. MakeView */ = {
 			isa = PBXGroup;
 			children = (
 				487074CB2B3003710001BE07 /* MenuView.swift */,
 			);
-			path = MakeView;
+			path = "1. MakeView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
