@@ -12,6 +12,7 @@
 		487074C12B3003600001BE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487074C02B3003600001BE07 /* Assets.xcassets */; };
 		487074C42B3003600001BE07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487074C32B3003600001BE07 /* Preview Assets.xcassets */; };
 		487074CC2B3003710001BE07 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074CB2B3003710001BE07 /* MenuView.swift */; };
+		487074CF2B30082B0001BE07 /* TamagochiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074CE2B30082B0001BE07 /* TamagochiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		487074C02B3003600001BE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		487074C32B3003600001BE07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		487074CB2B3003710001BE07 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		487074CE2B30082B0001BE07 /* TamagochiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 		487074BB2B30035E0001BE07 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				487074CA2B30036A0001BE07 /* 1. MakeView */,
+				487074CD2B3008150001BE07 /* 2. Data Flow */,
+				487074CA2B30036A0001BE07 /* 1. Make View */,
 				487074BC2B30035E0001BE07 /* SwiftUIPracticeApp.swift */,
 				487074BE2B30035E0001BE07 /* ContentView.swift */,
 				487074C02B3003600001BE07 /* Assets.xcassets */,
@@ -70,12 +73,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		487074CA2B30036A0001BE07 /* 1. MakeView */ = {
+		487074CA2B30036A0001BE07 /* 1. Make View */ = {
 			isa = PBXGroup;
 			children = (
 				487074CB2B3003710001BE07 /* MenuView.swift */,
 			);
-			path = "1. MakeView";
+			path = "1. Make View";
+			sourceTree = "<group>";
+		};
+		487074CD2B3008150001BE07 /* 2. Data Flow */ = {
+			isa = PBXGroup;
+			children = (
+				487074CE2B30082B0001BE07 /* TamagochiView.swift */,
+			);
+			path = "2. Data Flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				487074BF2B30035E0001BE07 /* ContentView.swift in Sources */,
 				487074CC2B3003710001BE07 /* MenuView.swift in Sources */,
+				487074CF2B30082B0001BE07 /* TamagochiView.swift in Sources */,
 				487074BD2B30035E0001BE07 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
