@@ -18,6 +18,7 @@
 		487074D72B3060290001BE07 /* VerticalScrollHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074D62B3060290001BE07 /* VerticalScrollHomeView.swift */; };
 		487074DA2B3061940001BE07 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074D92B3061940001BE07 /* GridView.swift */; };
 		487074DF2B3061CF0001BE07 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074DE2B3061CF0001BE07 /* Movie.swift */; };
+		487074E42B3064D60001BE07 /* SearchMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074E32B3064D60001BE07 /* SearchMovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		487074D62B3060290001BE07 /* VerticalScrollHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollHomeView.swift; sourceTree = "<group>"; };
 		487074D92B3061940001BE07 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		487074DE2B3061CF0001BE07 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		487074E32B3064D60001BE07 /* SearchMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		487074BB2B30035E0001BE07 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				487074E02B3064BB0001BE07 /* 6. Search */,
 				487074DB2B3061BA0001BE07 /* Dummy */,
 				487074D82B3060950001BE07 /* 5. Grid */,
 				487074D32B305D4A0001BE07 /* 4. AsyncImage */,
@@ -134,6 +137,14 @@
 				487074DE2B3061CF0001BE07 /* Movie.swift */,
 			);
 			path = Dummy;
+			sourceTree = "<group>";
+		};
+		487074E02B3064BB0001BE07 /* 6. Search */ = {
+			isa = PBXGroup;
+			children = (
+				487074E32B3064D60001BE07 /* SearchMovieView.swift */,
+			);
+			path = "6. Search";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				487074D72B3060290001BE07 /* VerticalScrollHomeView.swift in Sources */,
 				487074BF2B30035E0001BE07 /* ContentView.swift in Sources */,
 				487074DF2B3061CF0001BE07 /* Movie.swift in Sources */,
+				487074E42B3064D60001BE07 /* SearchMovieView.swift in Sources */,
 				487074DA2B3061940001BE07 /* GridView.swift in Sources */,
 				487074CC2B3003710001BE07 /* MenuView.swift in Sources */,
 				487074CF2B30082B0001BE07 /* TamagochiView.swift in Sources */,
