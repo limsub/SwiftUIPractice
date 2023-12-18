@@ -21,6 +21,8 @@ struct MenuView: View {
                 Text("1번 텍스트")
                 DatePicker(selection: .constant(Date())) {
                     Text("DatePicker 넣어보기")
+                    
+                    
                 }
                 ColorPicker("ColorPicker 넣어보기", selection: .constant(.yellow))
             }
