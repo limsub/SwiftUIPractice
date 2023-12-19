@@ -19,6 +19,12 @@
 		487074DA2B3061940001BE07 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074D92B3061940001BE07 /* GridView.swift */; };
 		487074DF2B3061CF0001BE07 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074DE2B3061CF0001BE07 /* Movie.swift */; };
 		487074E42B3064D60001BE07 /* SearchMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487074E32B3064D60001BE07 /* SearchMovieView.swift */; };
+		4870750A2B31786A0001BE07 /* TestInitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487075092B31786A0001BE07 /* TestInitView.swift */; };
+		4870750C2B317BCE0001BE07 /* TransitionWithNavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870750B2B317BCE0001BE07 /* TransitionWithNavigationLazyView.swift */; };
+		4870750E2B317BE40001BE07 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870750D2B317BE40001BE07 /* NavigationLazyView.swift */; };
+		487075102B317C550001BE07 /* SampleTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870750F2B317C550001BE07 /* SampleTestView.swift */; };
+		487075122B317C780001BE07 /* SampleTest2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487075112B317C780001BE07 /* SampleTest2View.swift */; };
+		487075142B317D410001BE07 /* SampleTest3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487075132B317D410001BE07 /* SampleTest3View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		487074D92B3061940001BE07 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		487074DE2B3061CF0001BE07 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		487074E32B3064D60001BE07 /* SearchMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieView.swift; sourceTree = "<group>"; };
+		487075092B31786A0001BE07 /* TestInitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInitView.swift; sourceTree = "<group>"; };
+		4870750B2B317BCE0001BE07 /* TransitionWithNavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionWithNavigationLazyView.swift; sourceTree = "<group>"; };
+		4870750D2B317BE40001BE07 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		4870750F2B317C550001BE07 /* SampleTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTestView.swift; sourceTree = "<group>"; };
+		487075112B317C780001BE07 /* SampleTest2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest2View.swift; sourceTree = "<group>"; };
+		487075132B317D410001BE07 /* SampleTest3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest3View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,7 @@
 		487074BB2B30035E0001BE07 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				487075082B3178520001BE07 /* 7. ViewRendering */,
 				487074E02B3064BB0001BE07 /* 6. Search */,
 				487074DB2B3061BA0001BE07 /* Dummy */,
 				487074D82B3060950001BE07 /* 5. Grid */,
@@ -147,6 +160,27 @@
 			path = "6. Search";
 			sourceTree = "<group>";
 		};
+		487075082B3178520001BE07 /* 7. ViewRendering */ = {
+			isa = PBXGroup;
+			children = (
+				487075152B317DB60001BE07 /* Sample */,
+				487075092B31786A0001BE07 /* TestInitView.swift */,
+				4870750B2B317BCE0001BE07 /* TransitionWithNavigationLazyView.swift */,
+				4870750D2B317BE40001BE07 /* NavigationLazyView.swift */,
+			);
+			path = "7. ViewRendering";
+			sourceTree = "<group>";
+		};
+		487075152B317DB60001BE07 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				4870750F2B317C550001BE07 /* SampleTestView.swift */,
+				487075112B317C780001BE07 /* SampleTest2View.swift */,
+				487075132B317D410001BE07 /* SampleTest3View.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,12 +251,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487075142B317D410001BE07 /* SampleTest3View.swift in Sources */,
 				487074D72B3060290001BE07 /* VerticalScrollHomeView.swift in Sources */,
 				487074BF2B30035E0001BE07 /* ContentView.swift in Sources */,
 				487074DF2B3061CF0001BE07 /* Movie.swift in Sources */,
+				4870750E2B317BE40001BE07 /* NavigationLazyView.swift in Sources */,
+				487075102B317C550001BE07 /* SampleTestView.swift in Sources */,
+				4870750A2B31786A0001BE07 /* TestInitView.swift in Sources */,
 				487074E42B3064D60001BE07 /* SearchMovieView.swift in Sources */,
+				487075122B317C780001BE07 /* SampleTest2View.swift in Sources */,
 				487074DA2B3061940001BE07 /* GridView.swift in Sources */,
 				487074CC2B3003710001BE07 /* MenuView.swift in Sources */,
+				4870750C2B317BCE0001BE07 /* TransitionWithNavigationLazyView.swift in Sources */,
 				487074CF2B30082B0001BE07 /* TamagochiView.swift in Sources */,
 				487074D22B3012D10001BE07 /* TransitionView.swift in Sources */,
 				487074BD2B30035E0001BE07 /* SwiftUIPracticeApp.swift in Sources */,
