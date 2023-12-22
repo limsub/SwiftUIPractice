@@ -36,7 +36,7 @@ struct TestInitView: View {
     var body: some View {
         VStack {
             // 1. struct
-            FirstView(number: Int.random(in: 1...10))
+            FirstView(number: Int.random(in: 1...3))
             
             // 2. property
             secondView
@@ -51,7 +51,7 @@ struct TestInitView: View {
             
             // 버튼
             Button("Select") {
-                randomNumber = Int.random(in: 1...100)
+//                randomNumber = Int.random(in: 1...100)
             }
         }
     }
@@ -59,11 +59,11 @@ struct TestInitView: View {
 
 // 1. struct
 struct FirstView: View {
-//    let number: Int
+    let number: Int
     
     init(number: Int) {
         print("First View Init!\(number)")
-//        self.number = number
+        self.number = number
     }
     
     var body: some View {
